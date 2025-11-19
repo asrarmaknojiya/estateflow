@@ -6,7 +6,7 @@ const getEntries = (req, res) => {
 
   let sql = "SELECT * FROM inventory_entries";
  
-  connection.query(sql, params, (err, data) => {
+  connection.query(sql,  (err, data) => {
     if (err) {
       console.error(err);
       return res.status(500).json({ error: "database error", details: err.message || err });
