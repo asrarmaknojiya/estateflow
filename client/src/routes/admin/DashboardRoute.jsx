@@ -15,6 +15,7 @@ import CreateCoupon from "../../pages/admin/coupon/CreateCoupon";
 import AddNewUser from "../../pages/admin/manage_user/AddNewUser";
 import ProtectedRoute from "../../components/PrivateRoute";
 import useAuthRefresh from '../../hooks/useAuthRefresh';
+import EditUser from "../../pages/admin/manage_user/EditUser";
 
 const AppRoutes = () => {
 
@@ -39,10 +40,11 @@ const AppRoutes = () => {
         <Route path="orders" element={<Order />} />
         <Route path="coupon" element={<Coupon />} />
         <Route path="manage-admins" element={<ManageUser />} />
+        <Route path="add-new_admin" element={<AddNewUser />} />
+        <Route path="edituser" element={<EditUser />} />
         <Route path="add-product" element={<AddProduct />} />
         <Route path="add-category" element={<AddCategory />} />
         <Route path="create-coupon" element={<CreateCoupon />} />
-        <Route path="add-new_admin" element={<AddNewUser />} />
       </Route>
       <Route path="*" element={<Navigate to="/admin/login" replace />} />
     </Routes>

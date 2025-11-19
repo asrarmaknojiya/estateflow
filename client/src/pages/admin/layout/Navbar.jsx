@@ -20,8 +20,8 @@ const Navbar = () => {
           <div className="dashboard-nav-profile">
             <img src={DashboardProfile} alt="profile-logo" />
             <div className="dashboard-nav-profile-name">
-              <span>Sakib Nedariya</span>
-              <p>Admin</p>
+              <span>Hello</span>
+              <p>user</p>
             </div>
             <TiArrowSortedDown />
           </div>
