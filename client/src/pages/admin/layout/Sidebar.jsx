@@ -33,9 +33,9 @@ const Sidebar = ({ onLogout }) => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/admin/product">
+            <NavLink to="/admin/properties">
               <RiProductHuntLine />
-              Products
+              Properties
             </NavLink>
           </li>
           <li>
@@ -54,6 +54,12 @@ const Sidebar = ({ onLogout }) => {
             <NavLink to="/admin/coupon">
               <RiCoupon2Line />
               Coupon
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/admin/getentries">
+              <RiCoupon2Line />
+              Inventory
             </NavLink>
           </li>
         </ul>
