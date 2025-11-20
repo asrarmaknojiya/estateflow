@@ -44,8 +44,8 @@ const AppRoutes = () => {
         <Route path="category" element={<Category />} />
         <Route path="orders" element={<Order />} />
         <Route path="coupon" element={<Coupon />} />
-        <Route path="manage-admins" element={<ManageUser />} />
-        <Route path="add-new_admin" element={<AddNewUser />} />
+        <Route path="manage-user" element={<ManageUser />} />
+        <Route path="add-new-user" element={<AddNewUser />} />
         <Route path="edituser" element={<EditUser />} />
         <Route path="add-category" element={<AddCategory />} />
         <Route path="create-coupon" element={<CreateCoupon />} />
