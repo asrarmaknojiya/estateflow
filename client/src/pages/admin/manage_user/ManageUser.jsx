@@ -63,7 +63,7 @@ const ManageUser = () => {
         <Breadcrumb
           title="Users"
           breadcrumbText="User List"
-          button={{ link: "/admin/addUser", text: "Add New User" }}
+          button={{ link: "/admin/add-new-user", text: "Add New User" }}
         />
 
         {/* TABS */}

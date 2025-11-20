@@ -100,7 +100,7 @@ const EditUser = () => {
 
             alert("User updated!");
             localStorage.removeItem("editUserId");
-            navigate("/admin/manage-admins");
+            navigate("/admin/manage-user");
 
         } catch (e) {
             console.log(e);
@@ -137,7 +137,7 @@ const EditUser = () => {
                     </div>
 
                     <div className="admin-panel-header-add-buttons">
-                        <NavLink to="/admin/manage-admins" className="cancel-btn dashboard-add-product-btn">
+                        <NavLink to="/admin/manage-user" className="cancel-btn dashboard-add-product-btn">
                             <HiXMark /> Cancel
                         </NavLink>
                         <button onClick={updateUser} className="primary-btn dashboard-add-product-btn">
